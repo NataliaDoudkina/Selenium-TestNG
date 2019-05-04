@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="51" total="68" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-05-04T17:04:14Z" name="NegativeTestsSuite" finished-at="2019-05-04T17:10:42Z" duration-ms="387750">
+    <groups>
+      <group name="positiveTests">
+        <method signature="SearchFieldsTests.positiveSearchTests()[pri:1, instance:ca.on.elections.eregistration.SearchFieldsTests@a82c5f1]" name="positiveSearchTests" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+      </group> <!-- positiveTests -->
+      <group name="smokeTests">
+        <method signature="SearchFieldsTests.positiveSearchTests()[pri:1, instance:ca.on.elections.eregistration.SearchFieldsTests@a82c5f1]" name="positiveSearchTests" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@389c4eb1]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@78a773fd]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@68034211]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@6e15fe2]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@7cb502c]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@1ef6d34c]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@125290e5]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@490caf5f]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@934b6cb]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@563e4951]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@30c8681]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@6304101a]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+      </group> <!-- smokeTests -->
+      <group name="addressLinkTests">
+        <method signature="SearchFieldsTests.openAddressLink()[pri:3, instance:ca.on.elections.eregistration.SearchFieldsTests@198d6542]" name="openAddressLink" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.openAddressLink()[pri:3, instance:ca.on.elections.eregistration.SearchFieldsTests@662706a7]" name="openAddressLink" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.openAddressLink()[pri:3, instance:ca.on.elections.eregistration.SearchFieldsTests@3e6f3f28]" name="openAddressLink" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.openAddressLink()[pri:3, instance:ca.on.elections.eregistration.SearchFieldsTests@40317ba2]" name="openAddressLink" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+      </group> <!-- addressLinkTests -->
+      <group name="negativeTests">
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@389c4eb1]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@78a773fd]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@68034211]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@6e15fe2]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@7cb502c]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@1ef6d34c]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@125290e5]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@490caf5f]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@934b6cb]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@563e4951]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@30c8681]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+        <method signature="SearchFieldsTests.testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@6304101a]" name="testMandatoryFields" class="ca.on.elections.eregistration.SearchFieldsTests"/>
+      </group> <!-- negativeTests -->
+    </groups>
+    <test started-at="2019-05-04T17:04:14Z" name="PositiveTests" finished-at="2019-05-04T17:04:44Z" duration-ms="29718">
+      <class name="ca.on.elections.eregistration.SearchFieldsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@a82c5f1]" started-at="2019-05-04T17:04:14Z" name="setUp" finished-at="2019-05-04T17:04:36Z" duration-ms="21985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="positiveSearchTests()[pri:1, instance:ca.on.elections.eregistration.SearchFieldsTests@a82c5f1]" started-at="2019-05-04T17:04:36Z" name="positiveSearchTests" finished-at="2019-05-04T17:04:43Z" duration-ms="6690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveSearchTests -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@a82c5f1]" started-at="2019-05-04T17:04:43Z" name="tearDown" finished-at="2019-05-04T17:04:44Z" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.on.elections.eregistration.SearchFieldsTests -->
+    </test> <!-- PositiveTests -->
+    <test started-at="2019-05-04T17:04:45Z" name="EmptyLastNameTest" finished-at="2019-05-04T17:05:04Z" duration-ms="19706">
+      <class name="ca.on.elections.eregistration.SearchFieldsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@389c4eb1]" started-at="2019-05-04T17:04:45Z" name="setUp" finished-at="2019-05-04T17:05:00Z" duration-ms="15340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@389c4eb1]" started-at="2019-05-04T17:05:00Z" name="testMandatoryFields" finished-at="2019-05-04T17:05:04Z" duration-ms="3512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[january]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1985]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[M6G3Y6]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ELLSWORTH AVE, TORONTO]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Last Name is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@389c4eb1]" started-at="2019-05-04T17:05:04Z" name="tearDown" finished-at="2019-05-04T17:05:04Z" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.on.elections.eregistration.SearchFieldsTests -->
+    </test> <!-- EmptyLastNameTest -->
+    <test started-at="2019-05-04T17:05:04Z" name="EmptyMonthOfBirthTest" finished-at="2019-05-04T17:05:21Z" duration-ms="16888">
+      <class name="ca.on.elections.eregistration.SearchFieldsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@78a773fd]" started-at="2019-05-04T17:05:04Z" name="setUp" finished-at="2019-05-04T17:05:16Z" duration-ms="11568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@78a773fd]" started-at="2019-05-04T17:05:16Z" name="testMandatoryFields" finished-at="2019-05-04T17:05:19Z" duration-ms="3057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Natalia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My last name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1985]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[M6G3Y6]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ELLSWORTH AVE, TORONTO]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Date of Birth has an invalid date]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@78a773fd]" started-at="2019-05-04T17:05:19Z" name="tearDown" finished-at="2019-05-04T17:05:21Z" duration-ms="2259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.on.elections.eregistration.SearchFieldsTests -->
+    </test> <!-- EmptyMonthOfBirthTest -->
+    <test started-at="2019-05-04T17:05:21Z" name="EmptyDayOfBirthTest" finished-at="2019-05-04T17:05:42Z" duration-ms="20789">
+      <class name="ca.on.elections.eregistration.SearchFieldsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@68034211]" started-at="2019-05-04T17:05:21Z" name="setUp" finished-at="2019-05-04T17:05:37Z" duration-ms="15543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@68034211]" started-at="2019-05-04T17:05:37Z" name="testMandatoryFields" finished-at="2019-05-04T17:05:40Z" duration-ms="3134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Natalia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My last name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[january]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1985]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[M6G3Y6]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ELLSWORTH AVE, TORONTO]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Date of Birth has an invalid date]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@68034211]" started-at="2019-05-04T17:05:40Z" name="tearDown" finished-at="2019-05-04T17:05:42Z" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.on.elections.eregistration.SearchFieldsTests -->
+    </test> <!-- EmptyDayOfBirthTest -->
+    <test started-at="2019-05-04T17:05:42Z" name="EmptyYearOfBirthTest" finished-at="2019-05-04T17:06:04Z" duration-ms="22052">
+      <class name="ca.on.elections.eregistration.SearchFieldsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@6e15fe2]" started-at="2019-05-04T17:05:42Z" name="setUp" finished-at="2019-05-04T17:05:59Z" duration-ms="16542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@6e15fe2]" started-at="2019-05-04T17:05:59Z" name="testMandatoryFields" finished-at="2019-05-04T17:06:04Z" duration-ms="4932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Natalia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My last name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[january]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[M6G3Y6]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ELLSWORTH AVE, TORONTO]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Date of Birth must be greater than the year 1900]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@6e15fe2]" started-at="2019-05-04T17:06:04Z" name="tearDown" finished-at="2019-05-04T17:06:04Z" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.on.elections.eregistration.SearchFieldsTests -->
+    </test> <!-- EmptyYearOfBirthTest -->
+    <test started-at="2019-05-04T17:06:05Z" name="EmptyPostalCodeTest" finished-at="2019-05-04T17:06:26Z" duration-ms="21676">
+      <class name="ca.on.elections.eregistration.SearchFieldsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@7cb502c]" started-at="2019-05-04T17:06:05Z" name="setUp" finished-at="2019-05-04T17:06:21Z" duration-ms="16386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@7cb502c]" started-at="2019-05-04T17:06:21Z" name="testMandatoryFields" finished-at="2019-05-04T17:06:24Z" duration-ms="3166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Natalia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My last name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[january]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1985]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Postal Code is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@7cb502c]" started-at="2019-05-04T17:06:24Z" name="tearDown" finished-at="2019-05-04T17:06:26Z" duration-ms="2116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.on.elections.eregistration.SearchFieldsTests -->
+    </test> <!-- EmptyPostalCodeTest -->
+    <test started-at="2019-05-04T17:06:26Z" name="EmptyAddressTest" finished-at="2019-05-04T17:06:45Z" duration-ms="18386">
+      <class name="ca.on.elections.eregistration.SearchFieldsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@1ef6d34c]" started-at="2019-05-04T17:06:26Z" name="setUp" finished-at="2019-05-04T17:06:38Z" duration-ms="11409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@1ef6d34c]" started-at="2019-05-04T17:06:38Z" name="testMandatoryFields" finished-at="2019-05-04T17:06:43Z" duration-ms="4814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Natalia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My last name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[january]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1985]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[M6G3Y6]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 Address found, select your address]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Address is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@1ef6d34c]" started-at="2019-05-04T17:06:43Z" name="tearDown" finished-at="2019-05-04T17:06:45Z" duration-ms="2160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.on.elections.eregistration.SearchFieldsTests -->
+    </test> <!-- EmptyAddressTest -->
+    <test started-at="2019-05-04T17:06:45Z" name="EmptyAddressNumberTest" finished-at="2019-05-04T17:07:01Z" duration-ms="16449">
+      <class name="ca.on.elections.eregistration.SearchFieldsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@125290e5]" started-at="2019-05-04T17:06:45Z" name="setUp" finished-at="2019-05-04T17:06:56Z" duration-ms="11006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@125290e5]" started-at="2019-05-04T17:06:56Z" name="testMandatoryFields" finished-at="2019-05-04T17:06:59Z" duration-ms="3122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Natalia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[My last name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[january]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1985]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[M6G3Y6]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ELLSWORTH AVE, TORONTO]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Street Number is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@125290e5]" started-at="2019-05-04T17:06:59Z" name="tearDown" finished-at="2019-05-04T17:07:01Z" duration-ms="2316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.on.elections.eregistration.SearchFieldsTests -->
+    </test> <!-- EmptyAddressNumberTest -->
+    <test started-at="2019-05-04T17:07:01Z" name="LastNameInvalidFormatHyphenTest" finished-at="2019-05-04T17:07:32Z" duration-ms="30443">
+      <class name="ca.on.elections.eregistration.SearchFieldsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@490caf5f]" started-at="2019-05-04T17:07:01Z" name="setUp" finished-at="2019-05-04T17:07:26Z" duration-ms="24807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@490caf5f]" started-at="2019-05-04T17:07:26Z" name="testMandatoryFields" finished-at="2019-05-04T17:07:29Z" duration-ms="3270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Natalia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[january]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1985]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[M6G3Y6]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ELLSWORTH AVE, TORONTO]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Last Name only allows English and French characters, and cannot start with an apostrophe, hyphen or space]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@490caf5f]" started-at="2019-05-04T17:07:29Z" name="tearDown" finished-at="2019-05-04T17:07:32Z" duration-ms="2362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.on.elections.eregistration.SearchFieldsTests -->
+    </test> <!-- LastNameInvalidFormatHyphenTest -->
+    <test started-at="2019-05-04T17:07:32Z" name="LastNameInvalidFormatSpaceTest" finished-at="2019-05-04T17:07:59Z" duration-ms="27480">
+      <class name="ca.on.elections.eregistration.SearchFieldsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@934b6cb]" started-at="2019-05-04T17:07:32Z" name="setUp" finished-at="2019-05-04T17:07:55Z" duration-ms="23128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@934b6cb]" started-at="2019-05-04T17:07:55Z" name="testMandatoryFields" finished-at="2019-05-04T17:07:59Z" duration-ms="3996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Natalia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[january]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1985]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[M6G3Y6]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ELLSWORTH AVE, TORONTO]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Last Name only allows English and French characters, and cannot start with an apostrophe, hyphen or space]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@934b6cb]" started-at="2019-05-04T17:07:59Z" name="tearDown" finished-at="2019-05-04T17:07:59Z" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.on.elections.eregistration.SearchFieldsTests -->
+    </test> <!-- LastNameInvalidFormatSpaceTest -->
+    <test started-at="2019-05-04T17:08:00Z" name="LastNameInvalidFormatApostropheTest" finished-at="2019-05-04T17:08:28Z" duration-ms="28569">
+      <class name="ca.on.elections.eregistration.SearchFieldsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@563e4951]" started-at="2019-05-04T17:08:00Z" name="setUp" finished-at="2019-05-04T17:08:24Z" duration-ms="24947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@563e4951]" started-at="2019-05-04T17:08:24Z" name="testMandatoryFields" finished-at="2019-05-04T17:08:28Z" duration-ms="3110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Natalia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA['test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[january]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1985]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[M6G3Y6]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ELLSWORTH AVE, TORONTO]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Last Name only allows English and French characters, and cannot start with an apostrophe, hyphen or space]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@563e4951]" started-at="2019-05-04T17:08:28Z" name="tearDown" finished-at="2019-05-04T17:08:28Z" duration-ms="509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.on.elections.eregistration.SearchFieldsTests -->
+    </test> <!-- LastNameInvalidFormatApostropheTest -->
+    <test started-at="2019-05-04T17:08:28Z" name="DayInvalidTest" finished-at="2019-05-04T17:08:56Z" duration-ms="27903">
+      <class name="ca.on.elections.eregistration.SearchFieldsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@30c8681]" started-at="2019-05-04T17:08:28Z" name="setUp" finished-at="2019-05-04T17:08:51Z" duration-ms="22449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@30c8681]" started-at="2019-05-04T17:08:51Z" name="testMandatoryFields" finished-at="2019-05-04T17:08:54Z" duration-ms="3028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Natalia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[january]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1985]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[M6G3Y6]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ELLSWORTH AVE, TORONTO]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Date of Birth has an invalid date]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@30c8681]" started-at="2019-05-04T17:08:54Z" name="tearDown" finished-at="2019-05-04T17:08:56Z" duration-ms="2424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.on.elections.eregistration.SearchFieldsTests -->
+    </test> <!-- DayInvalidTest -->
+    <test started-at="2019-05-04T17:08:56Z" name="FebruaryInvalidTest" finished-at="2019-05-04T17:09:13Z" duration-ms="16531">
+      <class name="ca.on.elections.eregistration.SearchFieldsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@6304101a]" started-at="2019-05-04T17:08:56Z" name="setUp" finished-at="2019-05-04T17:09:07Z" duration-ms="11184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMandatoryFields(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:ca.on.elections.eregistration.SearchFieldsTests@6304101a]" started-at="2019-05-04T17:09:07Z" name="testMandatoryFields" finished-at="2019-05-04T17:09:10Z" duration-ms="3195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Natalia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[february]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1985]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[M6G3Y6]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ELLSWORTH AVE, TORONTO]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Date of Birth has an invalid date]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@6304101a]" started-at="2019-05-04T17:09:10Z" name="tearDown" finished-at="2019-05-04T17:09:13Z" duration-ms="2149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.on.elections.eregistration.SearchFieldsTests -->
+    </test> <!-- FebruaryInvalidTest -->
+    <test started-at="2019-05-04T17:09:13Z" name="addressLinkTests" finished-at="2019-05-04T17:09:35Z" duration-ms="22744">
+      <class name="ca.on.elections.eregistration.SearchFieldsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@198d6542]" started-at="2019-05-04T17:09:13Z" name="setUp" finished-at="2019-05-04T17:09:33Z" duration-ms="20354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openAddressLink()[pri:3, instance:ca.on.elections.eregistration.SearchFieldsTests@198d6542]" started-at="2019-05-04T17:09:33Z" name="openAddressLink" finished-at="2019-05-04T17:09:33Z" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAddressLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@198d6542]" started-at="2019-05-04T17:09:33Z" name="tearDown" finished-at="2019-05-04T17:09:35Z" duration-ms="2246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.on.elections.eregistration.SearchFieldsTests -->
+    </test> <!-- addressLinkTests -->
+    <test started-at="2019-05-04T17:09:35Z" name="LinkTestFAQ" finished-at="2019-05-04T17:09:56Z" duration-ms="20635">
+      <class name="ca.on.elections.eregistration.SearchFieldsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@662706a7]" started-at="2019-05-04T17:09:35Z" name="setUp" finished-at="2019-05-04T17:09:54Z" duration-ms="18093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openAddressLink()[pri:3, instance:ca.on.elections.eregistration.SearchFieldsTests@662706a7]" started-at="2019-05-04T17:09:54Z" name="openAddressLink" finished-at="2019-05-04T17:09:54Z" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAddressLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@662706a7]" started-at="2019-05-04T17:09:54Z" name="tearDown" finished-at="2019-05-04T17:09:56Z" duration-ms="2417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.on.elections.eregistration.SearchFieldsTests -->
+    </test> <!-- LinkTestFAQ -->
+    <test started-at="2019-05-04T17:09:56Z" name="LinkTestContactUs" finished-at="2019-05-04T17:10:19Z" duration-ms="22985">
+      <class name="ca.on.elections.eregistration.SearchFieldsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@3e6f3f28]" started-at="2019-05-04T17:09:56Z" name="setUp" finished-at="2019-05-04T17:10:17Z" duration-ms="20439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openAddressLink()[pri:3, instance:ca.on.elections.eregistration.SearchFieldsTests@3e6f3f28]" started-at="2019-05-04T17:10:17Z" name="openAddressLink" finished-at="2019-05-04T17:10:17Z" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAddressLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@3e6f3f28]" started-at="2019-05-04T17:10:17Z" name="tearDown" finished-at="2019-05-04T17:10:19Z" duration-ms="2402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.on.elections.eregistration.SearchFieldsTests -->
+    </test> <!-- LinkTestContactUs -->
+    <test started-at="2019-05-04T17:10:19Z" name="LinkTestFrench" finished-at="2019-05-04T17:10:42Z" duration-ms="22797">
+      <class name="ca.on.elections.eregistration.SearchFieldsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@40317ba2]" started-at="2019-05-04T17:10:19Z" name="setUp" finished-at="2019-05-04T17:10:40Z" duration-ms="20454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openAddressLink()[pri:3, instance:ca.on.elections.eregistration.SearchFieldsTests@40317ba2]" started-at="2019-05-04T17:10:40Z" name="openAddressLink" finished-at="2019-05-04T17:10:40Z" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAddressLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ca.on.elections.eregistration.SearchFieldsTests@40317ba2]" started-at="2019-05-04T17:10:40Z" name="tearDown" finished-at="2019-05-04T17:10:42Z" duration-ms="2170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.on.elections.eregistration.SearchFieldsTests -->
+    </test> <!-- LinkTestFrench -->
+  </suite> <!-- NegativeTestsSuite -->
+</testng-results>

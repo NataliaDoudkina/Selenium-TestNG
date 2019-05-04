@@ -1,0 +1,322 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="NegativeTestsSuite" verbose="1">
+
+
+	 <test name="PositiveTests">
+		<groups>
+			<run>
+				<include name="positiveTests"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="ca.on.elections.eregistration.SearchFieldsTests" />
+		</classes>
+	</test>
+
+	<test name="EmptyLastNameTest">
+		<parameter name="firstName" value=""></parameter>
+		<parameter name="lastName" value=""></parameter>
+		<parameter name="month" value="january"></parameter>
+		<parameter name="day" value="12"></parameter>
+		<parameter name="year" value="1985"></parameter>
+		<parameter name="postalCode" value="M6G3Y6"></parameter>
+		<parameter name="address" value="ELLSWORTH AVE, TORONTO"></parameter>
+		<parameter name="addressNumber" value="1"></parameter>
+		<parameter name="expectedMessage"
+			value="Last Name is required"></parameter>
+		<classes>
+			<class name="ca.on.elections.eregistration.SearchFieldsTests">
+				<methods>
+					<include name="testMandatoryFields">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="EmptyMonthOfBirthTest">
+		<parameter name="firstName" value="Natalia"></parameter>
+		<parameter name="lastName" value="My last name"></parameter>
+		<parameter name="month" value=""></parameter>
+		<parameter name="day" value="12"></parameter>
+		<parameter name="year" value="1985"></parameter>
+		<parameter name="postalCode" value="M6G3Y6"></parameter>
+		<parameter name="address" value="ELLSWORTH AVE, TORONTO"></parameter>
+		<parameter name="addressNumber" value="1"></parameter>
+		<parameter name="expectedMessage"
+			value="Date of Birth has an invalid date"></parameter>
+		<classes>
+			<class name="ca.on.elections.eregistration.SearchFieldsTests">
+				<methods>
+					<include name="testMandatoryFields">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="EmptyDayOfBirthTest">
+		<parameter name="firstName" value="Natalia"></parameter>
+		<parameter name="lastName" value="My last name"></parameter>
+		<parameter name="month" value="january"></parameter>
+		<parameter name="day" value=""></parameter>
+		<parameter name="year" value="1985"></parameter>
+		<parameter name="postalCode" value="M6G3Y6"></parameter>
+		<parameter name="address" value="ELLSWORTH AVE, TORONTO"></parameter>
+		<parameter name="addressNumber" value="1"></parameter>
+		<parameter name="expectedMessage"
+			value="Date of Birth has an invalid date"></parameter>
+		<classes>
+			<class name="ca.on.elections.eregistration.SearchFieldsTests">
+				<methods>
+					<include name="testMandatoryFields">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="EmptyYearOfBirthTest">
+		<parameter name="firstName" value="Natalia"></parameter>
+		<parameter name="lastName" value="My last name"></parameter>
+		<parameter name="month" value="january"></parameter>
+		<parameter name="day" value="15"></parameter>
+		<parameter name="year" value=""></parameter>
+		<parameter name="postalCode" value="M6G3Y6"></parameter>
+		<parameter name="address" value="ELLSWORTH AVE, TORONTO"></parameter>
+		<parameter name="addressNumber" value="1"></parameter>
+		<parameter name="expectedMessage"
+			value="Date of Birth must be greater than the year 1900"></parameter>
+		<classes>
+			<class name="ca.on.elections.eregistration.SearchFieldsTests">
+				<methods>
+					<include name="testMandatoryFields">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+
+	<test name="EmptyPostalCodeTest">
+		<parameter name="firstName" value="Natalia"></parameter>
+		<parameter name="lastName" value="My last name"></parameter>
+		<parameter name="month" value="january"></parameter>
+		<parameter name="day" value="15"></parameter>
+		<parameter name="year" value="1985"></parameter>
+		<parameter name="postalCode" value=""></parameter>
+		<parameter name="address" value=""></parameter>
+		<parameter name="addressNumber" value=""></parameter>
+		<parameter name="expectedMessage"
+			value="Postal Code is required"></parameter>
+		<classes>
+			<class name="ca.on.elections.eregistration.SearchFieldsTests">
+				<methods>
+					<include name="testMandatoryFields">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="EmptyAddressTest">
+		<parameter name="firstName" value="Natalia"></parameter>
+		<parameter name="lastName" value="My last name"></parameter>
+		<parameter name="month" value="january"></parameter>
+		<parameter name="day" value="15"></parameter>
+		<parameter name="year" value="1985"></parameter>
+		<parameter name="postalCode" value="M6G3Y6"></parameter>
+		<parameter name="address"
+			value="1 Address found, select your address"></parameter>
+		<parameter name="addressNumber" value="1"></parameter>
+		<parameter name="expectedMessage" value="Address is required"></parameter>
+		<classes>
+			<class name="ca.on.elections.eregistration.SearchFieldsTests">
+				<methods>
+					<include name="testMandatoryFields">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="EmptyAddressNumberTest">
+		<parameter name="firstName" value="Natalia"></parameter>
+		<parameter name="lastName" value="My last name"></parameter>
+		<parameter name="month" value="january"></parameter>
+		<parameter name="day" value="15"></parameter>
+		<parameter name="year" value="1985"></parameter>
+		<parameter name="postalCode" value="M6G3Y6"></parameter>
+		<parameter name="address" value="ELLSWORTH AVE, TORONTO"></parameter>
+		<parameter name="addressNumber" value=""></parameter>
+		<parameter name="expectedMessage"
+			value="Street Number is required"></parameter>
+		<classes>
+			<class name="ca.on.elections.eregistration.SearchFieldsTests">
+				<methods>
+					<include name="testMandatoryFields">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+		 <test name="LastNameInvalidFormatHyphenTest">
+		<parameter name="firstName" value="Natalia"></parameter>
+		<parameter name="lastName" value="-test"></parameter>
+		<parameter name="month" value="january"></parameter>
+		<parameter name="day" value="15"></parameter>
+		<parameter name="year" value="1985"></parameter>
+		<parameter name="postalCode" value="M6G3Y6"></parameter>
+		<parameter name="address" value="ELLSWORTH AVE, TORONTO"></parameter>
+		<parameter name="addressNumber" value="1"></parameter>
+		<parameter name="expectedMessage"
+			value="Last Name only allows English and French characters, and cannot start with an apostrophe, hyphen or space"></parameter>
+		<classes>
+			<class name="ca.on.elections.eregistration.SearchFieldsTests">
+				<methods>
+					<include name="testMandatoryFields">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="LastNameInvalidFormatSpaceTest">
+		<parameter name="firstName" value="Natalia"></parameter>
+		<parameter name="lastName" value=" test"></parameter>
+		<parameter name="month" value="january"></parameter>
+		<parameter name="day" value="15"></parameter>
+		<parameter name="year" value="1985"></parameter>
+		<parameter name="postalCode" value="M6G3Y6"></parameter>
+		<parameter name="address" value="ELLSWORTH AVE, TORONTO"></parameter>
+		<parameter name="addressNumber" value="1"></parameter>
+		<parameter name="expectedMessage"
+			value="Last Name only allows English and French characters, and cannot start with an apostrophe, hyphen or space"></parameter>
+		<classes>
+			<class name="ca.on.elections.eregistration.SearchFieldsTests">
+				<methods>
+					<include name="testMandatoryFields">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="LastNameInvalidFormatApostropheTest">
+		<parameter name="firstName" value="Natalia"></parameter>
+		<parameter name="lastName" value="'test"></parameter>
+		<parameter name="month" value="january"></parameter>
+		<parameter name="day" value="15"></parameter>
+		<parameter name="year" value="1985"></parameter>
+		<parameter name="postalCode" value="M6G3Y6"></parameter>
+		<parameter name="address" value="ELLSWORTH AVE, TORONTO"></parameter>
+		<parameter name="addressNumber" value="1"></parameter>
+		<parameter name="expectedMessage"
+			value="Last Name only allows English and French characters, and cannot start with an apostrophe, hyphen or space"></parameter>
+		<classes>
+			<class name="ca.on.elections.eregistration.SearchFieldsTests">
+				<methods>
+					<include name="testMandatoryFields">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="DayInvalidTest">
+		<parameter name="firstName" value="Natalia"></parameter>
+		<parameter name="lastName" value="test"></parameter>
+		<parameter name="month" value="january"></parameter>
+		<parameter name="day" value="35"></parameter>
+		<parameter name="year" value="1985"></parameter>
+		<parameter name="postalCode" value="M6G3Y6"></parameter>
+		<parameter name="address" value="ELLSWORTH AVE, TORONTO"></parameter>
+		<parameter name="addressNumber" value="1"></parameter>
+		<parameter name="expectedMessage"
+			value="Date of Birth has an invalid date"></parameter>
+		<classes>
+			<class name="ca.on.elections.eregistration.SearchFieldsTests">
+				<methods>
+					<include name="testMandatoryFields">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="FebruaryInvalidTest">
+		<parameter name="firstName" value="Natalia"></parameter>
+		<parameter name="lastName" value="test"></parameter>
+		<parameter name="month" value="february"></parameter>
+		<parameter name="day" value="30"></parameter>
+		<parameter name="year" value="1985"></parameter>
+		<parameter name="postalCode" value="M6G3Y6"></parameter>
+		<parameter name="address" value="ELLSWORTH AVE, TORONTO"></parameter>
+		<parameter name="addressNumber" value="1"></parameter>
+		<parameter name="expectedMessage"
+			value="Date of Birth has an invalid date"></parameter>
+		<classes>
+			<class name="ca.on.elections.eregistration.SearchFieldsTests">
+				<methods>
+					<include name="testMandatoryFields">
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="addressLinkTests">
+		<groups>
+			<run>
+				<include name="addressLinkTests"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="ca.on.elections.eregistration.SearchFieldsTests" />
+		</classes>
+	</test>
+
+	
+		<test name="LinkTestFAQ">
+			<parameter name="expected" value="FAQ"></parameter>
+			<parameter name="expectedUrl"
+				value="https://www.elections.on.ca/en/voting-in-ontario/frequently-asked-questions/e-registration.html"></parameter>
+			<classes>
+				<class name="ca.on.elections.eregistration.SearchFieldsTests">
+					<methods>
+						<include name="openAddressLink">
+						</include>
+					</methods>
+				</class>
+			</classes>
+		</test>
+		<test name="LinkTestContactUs">
+			<parameter name="expected" value="Contact Us"></parameter>
+			<parameter name="expectedUrl"
+				value="https://www.elections.on.ca/en/contact-us.html"></parameter>
+			<classes>
+				<class name="ca.on.elections.eregistration.SearchFieldsTests">
+					<methods>
+						<include name="openAddressLink">
+						</include>
+					</methods>
+				</class>
+			</classes>
+		</test>
+		<test name="LinkTestFrench">
+			<parameter name="expected" value="Français"></parameter>
+			<parameter name="expectedUrl"
+				value="https://eregistration.elections.on.ca/fr/search"></parameter>
+
+			<classes>
+				<class name="ca.on.elections.eregistration.SearchFieldsTests">
+					<methods>
+						<include name="openAddressLink">
+						</include>
+					</methods>
+				</class>
+			</classes>
+		</test> 
+
+</suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NegativeTestsSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="EmptyAddressNumberTest(failed)">
+    <parameter name="firstName" value="Natalia"/>
+    <parameter name="lastName" value="My last name"/>
+    <parameter name="address" value="ELLSWORTH AVE, TORONTO"/>
+    <parameter name="month" value="january"/>
+    <parameter name="year" value="1985"/>
+    <parameter name="postalCode" value="M6G3Y6"/>
+    <parameter name="addressNumber" value=""/>
+    <parameter name="day" value="15"/>
+    <parameter name="expectedMessage" value="Street Number is required"/>
+    <classes>
+      <class name="ca.on.elections.eregistration.SearchFieldsTests">
+        <methods>
+          <include name="testMandatoryFields" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ca.on.elections.eregistration.SearchFieldsTests -->
+    </classes>
+  </test> <!-- EmptyAddressNumberTest(failed) -->
+</suite> <!-- Failed suite [NegativeTestsSuite] -->
